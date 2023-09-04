@@ -1,0 +1,23 @@
+#filterbox {
+    display:none;
+}
+#pdwl {
+    flex-direction: column;
+    height:352px;
+    margin-left:0px;
+    margin-right:0px;
+}
+#adbutton2 {
+    display:none;
+}
+#adpro {
+    height:65px;
+    width: inherit;
+}
+#adhead2 {
+    font-size: 20px;
+}
+#adpara2 {
+    font-size: 13px;
+    margin-top: 0px;
+}

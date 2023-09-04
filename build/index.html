@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="mQ0home.css"media="(max-width:920px)">
+    <link rel="stylesheet" type="text/css" href="mQhome.css"media="(max-width:800px)">
+    <link rel="stylesheet" type="text/css" href="mQ1home.css"media="(max-width:743px)">
+    <title>ebay clone</title>
+</head>
+<body>
+    <div id="subbody" >
+        <button id="gotop"><a href="#top"><img style="rotate:180deg; height:23px;" src="dropdown-arrow-icon-21.jpg"></a></button>
+
+        <div id="top">
+            
+            <div id="topright">
+                <a id="tl2s" href=""><span>Shop to</span></a>
+                <a id="tl2" href=""><span>Sell</span></a>
+                <button id="tlb">Watchlist<img id="cdrop" src="dropdown-arrow-icon-21.jpg"></button>
+                <span id="tl2">My ebay<img id="cdrop" src="dropdown-arrow-icon-21.jpg"></span>
+                <img id="ti" src="notification.png">
+                <img id="tic" src="cart.PNG">
+                
+            </div>
+            
+            <div id="topleft">
+                
+                <span id="tl1s">Hi! <a href="">Sign in</a> or <a href="">register</a></span>
+                <a id="tl1"  href=""><span>Daily Deals</span></a>
+                <a id="tl1" href=""><span >Help & Contact</span></a>
+
+            </div>
+
+        </div>
+
+        <div id="header">
+
+           <div id="headerright">
+                <button id="searchbutton">Search</button>
+                <span id="rtext">Advanced</span>
+                <button id="mobilehb1"><img id="hbimg" src="profile.PNG"></button>
+                <button id="mobilehb2"><img id="hbimg" src="cart.PNG"></button>
+                <button onclick="ham('open')" id="mobilehb3"><img id="hbimg" src="ham-menu.PNG"></button>
+           </div>
+
+           <div id="headerleft">
+                    
+                <img id="logo" src="ebay-logo-34469.png" >
+                <button onclick="show_off('#catdrop', '#filterbox', 'yes', '#dropdown')" id="filterbox">
+                    <span id="sctxt">Shop by<br>category</span>
+                    <img id="dropdown" src="dropdown-arrow-icon-21.jpg">
+                </button>    
+
+                <div id="searchbox">
+                    <img id="slogo" src="Search black.PNG">
+                    <input placeholder="Search for anything.." type="search" id="searchinput">
+                    <span id="searchtype">All categories&nbsp; <img id="cdrop" src="dropdown-arrow-icon-21.jpg"></span>
+                </div>
+                
+           </div>
+           <div id="catdrop">
+            <table>
+                <tr>
+                     <td id="catd">
+                         <ul>
+                             <a href=""><li id="chead">Collectables & art ></li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td id="catd">
+                     <td id="catd">
+                         <ul>
+                             <a href=""><li id="chead">Home & garden ></li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td id="catd">
+                     <td id="catd">
+                         <ul>
+                             <a href=""><li id="chead">Sporting goods ></li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td id="catd">
+                     
+                </tr>
+                <tr>
+                     <td id="catd">
+                         <ul>
+                             <a href=""><li id="chead">Electronics ></li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td id="catd">
+                     <td id="catd">
+                         <ul>
+                             <a href=""><li id="chead">Autopart & Accessories ></li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td id="catd">
+                     <td id="catd">
+                         <ul>
+                             <a href=""><li id="chead">Toys & Hobbies ></li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td id="catd">
+                 
+                </tr>
+                <tr>
+                 <td id="catd">
+                         <ul>
+                             <a href=""><li id="chead">Fashion ></li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td id="catd">
+                     <td id="catd">
+                         <ul>
+                             <a href=""><li id="chead">Musical instruments & gears ></li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td>
+                     <td>
+                         <ul>
+                             <a href=""><li id="chead">Other categories</li></a>
+                             <a href=""><li id="cpara">Collectables</li></a>
+                             <a href=""><li id="cpara">Antiques</li></a>
+                             <a href=""><li id="cpara">Art</li></a>
+                             <a href=""><li id="cpara">Sport memorabilia</li></a>
+                         </ul>
+                     </td>
+                     
+                </tr>
+            </table>
+            <div id="co">
+               <span id="so">See other categories</span>
+            </div>
+     
+     
+         </div>
+
+        </div>
+
+        <div id="sub-header">
+
+            <a id="tl3a"  href="">Home</a>
+            <a id="tl3"  href="">Saved</a>
+            <a id="tl3"  href="">Electronics</a>
+            <a id="tl3"  href="">Motors</a>
+            <a id="tl3"  href="">Fashion</a>
+            <a id="tl3"  href="">Collectables & Art</a>
+            <a id="tl3"  href="">Sport</a>
+            <a id="tl3"  href="">Health & Beauty</a>
+            <a id="tl3"  href="">Industrial equipment</a>
+            <a id="tl3"  href="">Home & Garden</a>
+            <a id="tl3"  href="">Deals</a>
+            <a id="tl3"  href="">Sell</a>
+
+        </div>
+        <div id="searchbox2">
+            <input placeholder="Search for anything.." type="search" id="searchinput2">
+            <button id="searchbutton2"><img id="mobilesl" src="Search white.PNG"></button>
+        </div>
+        <div id="adbox">
+
+            <div id="adtext">
+                <span id="adhead">Create, Build,<br> deliver!</span>
+                <span id="adpara" >Here's a range of tools and machine<br>thatget the job done</span>
+                <button id="adbutton">Shop now &RightArrow;</button>
+            </div>
+            <button style="background-image: url(s-l960\(1\).webp);" id="adbg">
+            
+            </button>
+
+
+        </div>
+        <div id="pdwl">
+            <button id="userl">Shop to</button>
+            <div id="adpro">
+                <span id="adhead2">Timeless watches</span>
+                <span id="adpara2" >From used to new, find yours</span>
+                <button id="adbutton2">Shop Now &RightArrow;</button>
+            </div>
+            <div id="adw">
+                <div id="adp">
+                    <img id="pimg" src="s-l225(1).webp">
+                    <span id="pp">$499.00</span>
+                    <div id="adps">
+                        <span id="opp">$689.99</span>
+                        <span id="po"> - 72% OFF</span>
+                    </div>
+                </div>
+                <div id="adp">
+                    <img id="pimg" src="s-l225(2).webp">
+                    <span id="pp">$499.00</span>
+                    <div id="adps">
+                        <span id="opp">$689.99</span>
+                        <span id="po"> - 72% OFF</span>
+                    </div>
+                </div>
+                <div id="adp">
+                    <img id="pimg" src="s-l225(3).webp">
+                    <span id="pp">$499.00</span>
+                    <div id="adps">
+                        <span id="opp">$689.99</span>
+                        <span id="po"> - 72% OFF</span>
+                    </div>
+                </div>
+                <div id="adp">
+                    <img id="pimg" src="s-l225(4).webp">
+                    <span id="pp">$499.00</span>
+                    <div id="adps">
+                        <span id="opp">$689.99</span>
+                        <span id="po"> - 72% OFF</span>
+                    </div>
+                </div>
+                <div id="adp">
+                    <img id="pimg" src="s-l225(5).webp">
+                    <span id="pp">$499.00</span>
+                    <div id="adps">
+                        <span id="opp">$689.99</span>
+                        <span id="po"> - 72% OFF</span>
+                    </div>
+                </div>
+                <div id="adp">
+                    <img id="pimg" src="s-l225.webp">
+                    <span id="pp">$499.00</span>
+                    <div id="adps">
+                        <span id="opp">$689.99</span>
+                        <span id="po"> - 72% OFF</span>
+                    </div>
+                </div>
+                <div id="adp">
+                    <img id="pimg" src="s-l225(7).webp">
+                    <span id="pp">$499.00</span>
+                    <div id="adps">
+                        <span id="opp">$689.99</span>
+                        <span id="po"> - 72% OFF</span>
+                    </div>
+                </div>
+                <div id="adp">
+                    <img id="pimg" src="s-l225(6).webp">
+                    <span id="pp">$499.00</span>
+                    <div id="adps">
+                        <span id="opp">$689.99</span>
+                        <span id="po"> - 72% OFF</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="epc">Explore Popular Categories →</button>
+        <div id="epcb">
+            <a id="cb">
+                <img id="cpimg" src="IMG_0389.JPG">
+                <span id="cpt">Sneekers</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0388.JPG">
+                <span id="cpt">Korean beauty</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0387.JPG">
+                <span id="cpt">Wristwatches</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0390.JPG">
+                <span id="cpt">Collectables</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0385.JPG">
+                <span id="cpt">Smartphones</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0386.JPG">
+                <span id="cpt">Sell</span>
+            </a>
+        </div>
+        <div id="ddb"><span id="dd">Daily Deals</span><button id="ddb">See deals →</button></div>
+        <div id="adw0">
+            <div id="adp">
+                <img id="pimg" src="s-l225(20).webp">
+                <span id="pp">$499.00</span>
+                <div id="adps">
+                    <span id="opp">$689.99</span>
+                    <span id="po"> - 72% OFF</span>
+                </div>
+            </div>
+            <div id="adp">
+                <img id="pimg" src="s-l225(21).webp">
+                <span id="pp">$499.00</span>
+                <div id="adps">
+                    <span id="opp">$689.99</span>
+                    <span id="po"> - 72% OFF</span>
+                </div>
+            </div>
+            <div id="adp">
+                <img id="pimg" src="s-l225(19).webp">
+                <span id="pp">$499.00</span>
+                <div id="adps">
+                    <span id="opp">$689.99</span>
+                    <span id="po"> - 72% OFF</span>
+                </div>
+            </div>
+            <div id="adp">
+                <img id="pimg" src="s-l225(18).webp">
+                <span id="pp">$499.00</span>
+                <div id="adps">
+                    <span id="opp">$689.99</span>
+                    <span id="po"> - 72% OFF</span>
+                </div>
+            </div>
+            <div id="adp">
+                <img id="pimg" src="s-l225(17).webp">
+                <span id="pp">$499.00</span>
+                <div id="adps">
+                    <span id="opp">$689.99</span>
+                    <span id="po"> - 72% OFF</span>
+                </div>
+            </div>
+            <div id="adp">
+                <img id="pimg" src="s-l225(16).webp">
+                <span id="pp">$499.00</span>
+                <div id="adps">
+                    <span id="opp">$689.99</span>
+                    <span id="po"> - 72% OFF</span>
+                </div>
+            </div>
+            <div id="adp">
+                <img id="pimg" src="s-l225(13).webp">
+                <span id="pp">$499.00</span>
+                <div id="adps">
+                    <span id="opp">$689.99</span>
+                    <span id="po"> - 72% OFF</span>
+                </div>
+            </div>
+            <div id="adp">
+                <img id="pimg" src="s-l225(12).webp">
+                <span id="pp">$499.00</span>
+                <div id="adps">
+                    <span id="opp">$689.99</span>
+                    <span id="po"> - 72% OFF</span>
+                </div>
+            </div>
+        </div>
+        <div id="pdwl0">
+            <div id="adpro" style="color:black;background-color: rgb(27, 239, 91);">
+                <span id="adhead2">Same quality, less cost</span>
+                <span id="adpara2" >Refurbished devices on eBay offer a world of advantage</span>
+                <button style="color:black;" id="adbutton2">Spend less &RightArrow;</button>
+            </div>
+            <div id="adw1"">
+                <a id="adp0">
+                    <img id="pimg0" src="IMG_0391.JPG">
+                </a>
+                <a id="adp0">
+                    <img id="pimg0" src="IMG_0392.JPG">
+                </a>
+                <a id="adp0">
+                    <img id="pimg0" src="IMG_0393.JPG">
+                </a>
+            </div>
+        </div>
+        <button style="margin-top: 200px;" id="epc">Explore Popular Categories →</button>
+        <div id="epcb">
+            <a id="cb">
+                <img id="cpimg" src="IMG_0396.JPG">
+                <span id="cpt">Samsung</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0394.JPG">
+                <span id="cpt">Sony</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0395.JPG">
+                <span id="cpt">Ugreen</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0397.JPG">
+                <span id="cpt">Xiaomi</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0398.JPG">
+                <span id="cpt">Adidas</span>
+            </a>
+            <a id="cb">
+                <img id="cpimg" src="IMG_0399.JPG">
+                <span id="cpt">Nike</span>
+            </a>
+        </div>
+        <div id="adbox" style="background-color: rgb(113, 227, 226);margin-top:100px;">
+
+            <div id="adtext" style="color:#121258;">
+                <span id="adhead">All they need to head back to class!</span>
+                <span id="adpara" >From cool kicks to top tech<br>gear up for a super start.</span>
+                <button id="adbutton1"  style="color:#121258;border-color:#121258;">Shop now &RightArrow;</button>
+            </div>
+            <button style="background-image: url(s-l960.webp);" id="adbg">
+            
+            </button>
+
+
+        </div>
+        <div id="f1box">
+            <div id="fsb">
+                <a id="fhl" href=""><span id="fheaders">Buy</span></a>
+                <a href=""><span id="fc">Registration</span></a>
+                <a href=""><span id="fc">eBay Money Back Guarantee</span></a>
+                <a href=""><span id="fc">Bidding & bay help</span></a>
+                <a href=""><span id="fc">Stores</span></a>
+
+            </div>
+            <div id="fsb">
+                <a id="fhl" href=""><span id="fheaders">Sell</span></a>
+                <a href=""><span id="fc">Start selling</span></a>
+                <a href=""><span id="fc">Learn to sell</span></a>
+                <a href=""><span id="fc">Affiliates</span></a>
+                <a id="fhl" href=""><span id="fheaders">Tools & apps</span></a>
+                <a href=""><span id="fc">Developers</span></a>
+                <a href=""><span id="fc">Security</span></a>
+                <a href=""><span id="fc">Site map</span></a>
+            </div>
+            <div id="fsb">
+                <a id="fhl" href=""><span id="fheaders">Stay connected</span></a>
+                <a href=""><span id="fc">eBay Blogs</span></a>
+                <a href=""><span id="fc">Facebook</span></a>
+                <a href=""><span id="fc">Twitter</span></a>
+            </div>
+            <div id="fsb">
+                <a id="fhl" href=""><span id="fheaders">About eBay</span></a>
+                <a href=""><span id="fc">Company info</span></a>
+                <a href=""><span id="fc">News</span></a>
+                <a href=""><span id="fc">Investors</span></a>
+                <a href=""><span id="fc">Careers</span></a>
+                <a href=""><span id="fc">Government relations</span></a>
+                <a href=""><span id="fc">Advertise with us</span></a>
+                <a href=""><span id="fc">Policies</span></a>
+                <a href=""><span id="fc">Verified Right Owner(VeRO) program</span></a>
+            </div>
+            <div id="fsb">
+                <a id="fhl" href=""><span id="fheaders">Help & connect</span></a>
+                <a href=""><span id="fc">Seller information center</span></a>
+                <a href=""><span id="fc">contact</span></a>
+                <a id="fhl" href=""><span id="fheaders">Community</span></a>
+                <a href=""><span id="fc">Announcements</span></a>
+                <a href=""><span id="fc">Discussion boards</span></a>
+                <a href=""><span id="fc">eBay Giving Works</span></a>
+                <a id="fhl" href=""><span id="fheaders">eBay sites</span></a>
+                <button  id="fs">United States</button>
+            </div>
+        </div>
+        <div id="bf1">
+            <span id="bft">Copyright &copy; 1995-2023 eBay Inc. All Rights Reserved.</span>
+            <a href=""><span id="bfl">Accesibility,</span></a>
+            <a href=""><span id="bfl">User Agreement,</span></a>
+            <a href=""><span id="bfl">Privacy,</span></a>
+            <a href=""><span id="bfl">Payments Terms of Use,</span></a>
+            <a href=""><span id="bfl">Cookies,</span></a>
+            <a href=""><span id="bfl">Your Privacy Choices</span></a>
+            <span id="bft">and</span>
+            <a href=""><span id="bfl">AdChoice</span></a>
+        </div>
+        <div id="mfooter">
+            <div id="mftop">
+                <a class="mfl" href=""><span id="mfl">Home</span></a>
+                <a class="mfl" href=""><span id="mfl">Sign in/ Register</span></a>
+                <a class="mfl" href=""><span id="mfl">Sell an item</span></a>
+                <a class="mfl" href=""><span id="mfl">Help & Contact</span></a>
+                <a class="mfl" href=""><span id="mfl">Download the free eBay app</span></a>
+                <div id="mfline"></div>
+            </div>
+            <div id="mfbottom">
+                <div id="more">
+                    <a href=""><span id="mfbl">Site map,</span></a>
+                    <a href=""><span id="mfbl">User Agreement,</span></a>
+                    <a href=""><span id="mfbl">Privacy</span></a>
+                    <a href=""><span id="mfbl">Cookies</span></a>
+                    <span id="moret">&</span>
+                    <a href=""><span id="mfbl">AdChoice.</span></a>
+                </div>
+                <span id="moret">&copy; 1995-2023 eBay Inc.</span>
+                <span id="moret">Mobile/<a href=""><span id="mfbl">Classic site</span></a></span>
+            </div>
+        </div>
+        <div id="ham">
+            <button onclick="ham('close')" id="closeham">&times;</button>
+            <button id="hamb">Categories</button>
+            <button id="hamb">Deals</button>
+            <button id="hamb">Sell</button>
+            <button id="hamb">Help</button>
+            <div id="hamline"></div>
+            <div id="hsub">
+                <a href="">Sign in</a><span> or</span><a href=""> Register</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="home.js"></script>
+</body>
+</html>
