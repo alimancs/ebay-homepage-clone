@@ -527,6 +527,9 @@ a {
     flex-direction: column;
     padding-left: 20px;
 }
+#hamb {
+    color:black;
+}
 #hamb, #hsub {
     font-size: 20px;
     width:fit-content;
